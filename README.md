@@ -13,7 +13,7 @@ This repository contains PCB drawings I have created for various projects.
   ![Back](https://private-user-images.githubusercontent.com/88650237/349458140-d3f44026-0dc8-4ca9-99f9-12cbd3347606.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjEyMTE0NzIsIm5iZiI6MTcyMTIxMTE3MiwicGF0aCI6Ii84ODY1MDIzNy8zNDk0NTgxNDAtZDNmNDQwMjYtMGRjOC00Y2E5LTk5ZjktMTJjYmQzMzQ3NjA2LlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzE3VDEwMTI1MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWMzYjJkY2I4MGY1OTNjNDBiNTYzOWYzYTJiZmM5MTY3NDM4MmI4MWMyOTljY2E2YTc3MDE1YmZlOTlmMDVjNDAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.5vquEI8lzO1X_P0CTzHue5m25ksvl7SPObfPhwPXTlI)
 
 
-2. [Room Climate Clock Wifi](https://github.com/mertalisenturk/pcb-s/blob/main/Room%20Climate%20Clock%20Wifi)
+2. [Room Climate Clock Wifi](https://github.com/mertalisenturk/Projects/tree/main/RoomClimateClockWifi)
 
   In this project, a clock is designed to measure the temperature and humidity values of the environment. This clock is powered by type c. In addition, the data obtained can be transferred to the user via wifi. ESP32-WROOM-32E was used in the project.
 
