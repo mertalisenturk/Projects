@@ -6,11 +6,10 @@ This repository contains PCB drawings I have created for various projects.
 
 1. [Wireless Security Board](https://github.com/mertalisenturk/pcb-s/blob/main/Wireless%20Security%20Board)
 
-  The card designed in this project is a security card that monitors the movement and temperature of the environment. The data can be transferred to the user via USB interface or wirelessly. The card works with 220V AC mains. STM32F103C6 series processor was used in the project.
+  The card designed in this project is a security card that monitors the movement and temperature of the environment. The data can be transferred to the user via USB interface or wirelessly by using ESP32-WROOM-32E module. The card works with 220V AC mains. STM32F103C6 series processor was used as main controler unit. This project is based on the training series prepared by Mustafa Burak Aydoğan.
 
-  ![Front](https://private-user-images.githubusercontent.com/88650237/349458134-97073b90-c69c-41b5-b619-a7c207081cf7.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjEyMTE0NzIsIm5iZiI6MTcyMTIxMTE3MiwicGF0aCI6Ii84ODY1MDIzNy8zNDk0NTgxMzQtOTcwNzNiOTAtYzY5Yy00MWI1LWI2MTktYTdjMjA3MDgxY2Y3LlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzE3VDEwMTI1MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE5ZDZkOTZiNzZjMWM5ZWMyZDAyMWVlODE0ZjI4YTQ5NjRlZDc2ZWJmY2I3YmU4MzE1NTlkNTdmMWU2YzhlOWMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.cqVQ0t80XkVOI2I5J6waj8n9SrhwTtDmrWuBw7mlFgA)
 
-  ![Back](https://private-user-images.githubusercontent.com/88650237/349458140-d3f44026-0dc8-4ca9-99f9-12cbd3347606.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjEyMTE0NzIsIm5iZiI6MTcyMTIxMTE3MiwicGF0aCI6Ii84ODY1MDIzNy8zNDk0NTgxNDAtZDNmNDQwMjYtMGRjOC00Y2E5LTk5ZjktMTJjYmQzMzQ3NjA2LlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzE3VDEwMTI1MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWMzYjJkY2I4MGY1OTNjNDBiNTYzOWYzYTJiZmM5MTY3NDM4MmI4MWMyOTljY2E2YTc3MDE1YmZlOTlmMDVjNDAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.5vquEI8lzO1X_P0CTzHue5m25ksvl7SPObfPhwPXTlI)
+
 
 
 2. [Room Climate Clock Wifi](https://github.com/mertalisenturk/Projects/tree/main/RoomClimateClockWifi)
@@ -18,14 +17,14 @@ This repository contains PCB drawings I have created for various projects.
   In this project, a clock is designed to measure the temperature and humidity values of the environment. This clock is powered by type c. In addition, the data obtained can be transferred to the user via wifi. ESP32-WROOM-32E was used in the project.
 
 
-  ![Front](https://private-user-images.githubusercontent.com/88650237/349458130-cb9a8081-54ec-4814-ad57-aaebc6e85bfe.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjEyMTEzMzIsIm5iZiI6MTcyMTIxMTAzMiwicGF0aCI6Ii84ODY1MDIzNy8zNDk0NTgxMzAtY2I5YTgwODEtNTRlYy00ODE0LWFkNTctYWFlYmM2ZTg1YmZlLlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzE3VDEwMTAzMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTIyZTliNWU3ZmY1NDQ2ZWY0YWJmMTJkNmMyNDZkZTUxMWJjZTBlZGIyYWI4YzhmYmNiZTMwOWRmMDYxYzE5NGEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.2KWwnqvlYrGmSMOYpCH1KBXNjICfaB76FMzJtOf44P4)
 
-  ![Back](https://private-user-images.githubusercontent.com/88650237/349458127-c067da75-cc08-45c9-94ad-addf3a12ae9b.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjEyMTEzMzIsIm5iZiI6MTcyMTIxMTAzMiwicGF0aCI6Ii84ODY1MDIzNy8zNDk0NTgxMjctYzA2N2RhNzUtY2MwOC00NWM5LTk0YWQtYWRkZjNhMTJhZTliLlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzE3VDEwMTAzMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRlMjRjNzJiZWE4MDYyZTFlNTYzNDdlODcyYzEzNzJhOWM5ZjFkN2NhMTI5ZGUwYjM0ZjJjZmJjNzNhNTRlMmYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.wvxn23fhwyZVGNYfGsPa94MAf7bvf-47mfLLCwu6nQ0)
 
 
 3. [STM32 BluePill](https://github.com/mertalisenturk/Projects/tree/main/STM32%20BluePill)
 
 The STM32 BluePill board is designed using the STM32F103C6T6A.
 
-![bluepill1](https://github.com/user-attachments/assets/f5d8a850-ff43-4e76-91f7-a87ea8c67a02)
-![bluepill2](https://github.com/user-attachments/assets/dcdf2b7b-6bee-4845-8952-62242ce2c2bd)
+
+4. [STM32&BMI088 Board](https://github.com/mertalisenturk/Projects/tree/main/STM32%26BMI088%20Board)
+
+A two-layer board designed in a video series by Phill's Lab on the Altium Academy youtube channel. STM32F042G6U6 microcontroller and BMI088 6 axis IMU are used. An extra 1 I2C connector and a SWD connector for programming were added. Power is supplied via USB type-C and 3.3 volt operating voltage is obtained by using a switching voltage regulator.
