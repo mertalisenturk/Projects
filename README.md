@@ -2,6 +2,7 @@
 
 
 This repository contains PCB drawings I have created for various projects.
+Click on the titles to go to the project pictures and documents.
 
 
 1. [Wireless Security Board](https://github.com/mertalisenturk/pcb-s/blob/main/Wireless%20Security%20Board)
