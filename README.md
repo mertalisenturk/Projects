@@ -29,3 +29,9 @@ The STM32 BluePill board is designed using the STM32F103C6T6A.
 4. [STM32&BMI088 Board](https://github.com/mertalisenturk/Projects/tree/main/STM32%26BMI088%20Board)
 
 A two-layer board designed in a video series by Phill's Lab on the Altium Academy youtube channel. STM32F042G6U6 microcontroller and BMI088 6 axis IMU are used. An extra 1 I2C connector and a SWD connector for programming were added. Power is supplied via USB type-C and 3.3 volt operating voltage is obtained by using a switching voltage regulator.
+
+5. [USB Hub](https://github.com/mertalisenturk/Projects/tree/main/USBHub)
+
+In this project, one USB port is multiplexed into 4 sub-ports using the USB2514 integrated circuit. The project supports USB2.0 and provides 600mA and 5 volt output. The required power is supplied by a 5 volt type c connector. There is ESD protection for each port. Power to the ports is distributed by a MIC2095 load switch. The ports can also be enabled or disabled with the physical switch on the board.
+
+
